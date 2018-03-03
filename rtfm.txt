@@ -101,9 +101,9 @@
 0.5.E Exponent
 0.5.F Random
 0.6 String and date manipulation
-0.6.0
-0.6.1
-0.6.2
+0.6.0 Uppercase
+0.6.1 Lowercase
+0.6.2 First letter uppercase
 0.6.3
 0.6.4
 0.6.5
@@ -133,7 +133,7 @@
 0.7.C
 0.7.D
 0.7.E
-0.7.F
+0.7.F Restore original value of x
 0.8 Constants
 0.8.0 Zero
 0.8.1 Pi
@@ -146,8 +146,8 @@
 0.8.8
 0.8.9
 0.8.A Apery's constant
-0.8.B
-0.8.C
+0.8.B Tau ("2" 012 081)
+0.8.C "Hello, world!" string
 0.8.D RTFM version
 0.8.E e (Euler's)
 0.8.F Infinity

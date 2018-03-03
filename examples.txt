@@ -1,0 +1,39 @@
+examples
+======================
+Hello, World!
+070 08C
+
+cat program
+046 x 071 x 070 x
+
+truth-machine (halt when 0 on input, otherwise indefinitely output 1)
+041 t 071 t 022 t 030 "0" 02F 023 020 027["1"] 070 "1" 021
+
+99 bottles of beer [ungolfed]
+
+046 bottles 030 " bottles of beer. "
+046 wall 030 " bottles of beer on the wall"
+046 take 030 "Take one down and pass it around, "
+046 nomore 030 "no more"
+046 store 030 "Go to the store and buy some more, "
+046 commaspace 030 ", "
+046 newline 030 10A 01D 10D
+041 i 030 "99"
+027[i 035 080] 020
+	070 i 01D wall 01D commaspace 01D i 01D bottles 01D newline
+	01F i
+	070 take
+	022 i 031 080 020
+		070 i 01D wall 01D 12E 01D newline
+		021 023
+		020
+		070 nomore 01D wall 01D newline
+		021
+021
+070 062[nomore] 01D wall 01D commaspace 01D nomore 01D bottles 01D newline
+07F i
+070 store 01D i 01D wall 12E 01D
+
+99 bottles of beer [golfed]
+
+046 b 030 " bottles of beer. " 046 w 030 " bottles of beer on the wall" 046 t 030 "Take one down and pass it around, " 046 n 030 "no more" 046 s 030 "Go to the store and buy some more, " 046 c 030 ", " 046 l 030 10A 01D 10D 041 i 030 "99" 027[i 035 080] 020 070 i 01D w 01D c 01D i 01D b 01D l 01F i 070 t 022 i 031 080 020 070 i 01D w 01D 12E 01D l 021 023 020 070 n 01D w 01D l 021 021 070 062[n] 01D w 01D c 01D n 01D b 01D l 07F i 070 s 01D i 01D w 12E 01D

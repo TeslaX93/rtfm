@@ -1,4 +1,4 @@
-0. Standard Library
+0. Standard Library (standard.lib)
 0.0 Booleans
 0.0.0 FALSE
 0.0.1 AND
@@ -79,10 +79,10 @@
 0.4.8 (Declare) boolean
 0.4.9 (Declare) void
 0.4.A (Declare) array of x (i.e. 04A[041] *is 
-0.4.B (Declare) external library (i.e. 04B math.rtb )
-0.4.C (Declare) PHP style dynamic type variable
-0.4.D (Declare) undefined type
-0.4.E (Declare) fileI
+0.4.B (Declare) external library (i.e. 04B math.rtb 200)
+0.4.C (Declare) null
+0.4.D (Declare) float
+0.4.E (Declare) integer-with-modulo
 0.4.F (Declare) function (i.e. 04F example 020 025 "Hello world" 021 )
 0.5 Math
 0.5.0 Minimum
@@ -104,9 +104,9 @@
 0.6.0 Uppercase
 0.6.1 Lowercase
 0.6.2 First letter uppercase
-0.6.3
-0.6.4
-0.6.5
+0.6.3 First letter lowercase
+0.6.4 Random letter uppercase
+0.6.5 Concatenation (same as 0.1.D)
 0.6.6
 0.6.7
 0.6.8
@@ -253,24 +253,24 @@
 0.E.D
 0.E.E Unknown error
 0.E.F
-0.F Object-oriented elements
-0.F.0 Declare class
-0.F.1 Constructor (used with 04F)
-0.F.2 Destructor (used with 04F)
-0.F.3 Implements
-0.F.4 Extends
-0.F.5 Set this class as main class (i.e. 0F0 0F5 020 ... 021)
-0.F.6 Abstract
-0.F.7 Interface
-0.F.8 Trait
-0.F.9 Final
+0.F Reserved
+0.F.0 
+0.F.1 
+0.F.2 
+0.F.3 
+0.F.4 
+0.F.5 
+0.F.6 
+0.F.7 
+0.F.8 
+0.F.9 
 0.F.A
 0.F.B
 0.F.C
 0.F.D
 0.F.E
 0.F.F
-1 ASCII Library
+1 ASCII Library (ascii.lib)
 1.0 Display ASCII 0 - 15
 1.0.0 Display ASCII 0
 1.0.1 Display ASCII 1
@@ -764,7 +764,7 @@ E.C
 E.D
 E.E
 E.F
-F 8086 Assembly Emulator
+F 
 F.0
 F.1
 F.2
@@ -796,4 +796,4 @@ F.F.B
 F.F.C
 F.F.D
 F.F.E
-F.F.F [Alias of 00F]
+F.F.F Reserved as "false" value, cannot be used
